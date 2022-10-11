@@ -4,7 +4,20 @@ html {
     --dark-cyan: hsl(179, 100%, 13%);
     --trans-white: hsl(0, 0%, 100%, 0.75);
     --light-gray: hsl(0, 0%, 95%);
+
     font-size: 15px;
+}
+
+.sedan-card {
+    background-color: var(--orange);
+}
+
+.suv-card {
+    background-color: var(--cyan);
+}
+
+.lux-card {
+    background-color: var(--dark-cyan);
 }
 
 .attribution {
