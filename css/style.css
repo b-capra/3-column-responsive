@@ -8,16 +8,31 @@ html {
     font-size: 15px;
 }
 
+.all-cards {
+    display: flex;
+}
+
 .sedan-card {
     background-color: var(--orange);
+    height: 500px;
+    width: 307px;
+}
+
+.sedan-icon {
+    height: 64px;
+    width: 40px;
 }
 
 .suv-card {
     background-color: var(--cyan);
+    height: 500px;
+    width: 307px;
 }
 
 .lux-card {
     background-color: var(--dark-cyan);
+    height: 500px;
+    width: 307px;
 }
 
 .attribution {
