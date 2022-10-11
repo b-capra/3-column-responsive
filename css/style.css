@@ -10,6 +10,9 @@ html {
 
 .all-cards {
     display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-title {
@@ -20,15 +23,31 @@ html {
     font-family: 'Lexend Deca';
 }
 
+.learn-more {
+    background-color: var(--light-gray);
+    border: 2px solid var(--light-gray);
+    height: 48px;
+    width: 146px;
+    border-radius: 30px;
+    font-family: 'Lexend Deca';
+}
+
+.sedan-button {
+    color: var(--orange);
+}
+
+.suv-button {
+    color: var(--cyan);
+}
+
+.lux-button {
+    color: var(--dark-cyan);
+}
+
 .sedan-card {
     background-color: var(--orange);
     height: 500px;
     width: 307px;
-}
-
-.sedan-icon {
-    height: 64px;
-    width: 40px;
 }
 
 .suv-card {
