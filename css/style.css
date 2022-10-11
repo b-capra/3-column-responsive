@@ -4,4 +4,22 @@ html {
     --dark-cyan: hsl(179, 100%, 13%);
     --trans-white: hsl(0, 0%, 100%, 0.75);
     --light-gray: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (min-width: 376px) {
+
 }
