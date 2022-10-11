@@ -12,6 +12,14 @@ html {
     display: flex;
 }
 
+.card-title {
+    font-family: 'Big Shoulders Display';
+}
+
+.card-text {
+    font-family: 'Lexend Deca';
+}
+
 .sedan-card {
     background-color: var(--orange);
     height: 500px;
