@@ -8,8 +8,58 @@ html {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 375px) {
+.card-title {
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    color: var(--light-gray);
+}
 
+.card-text {
+    font-family: 'Lexend Deca';
+    color: var(--light-gray);
+    line-height: 25px;
+}
+
+.learn-more {
+    background-color: var(--light-gray);
+    border: 2px solid var(--light-gray);
+    height: 48px;
+    width: 146px;
+    border-radius: 25px;
+    font-family: 'Lexend Deca';
+}
+
+.sedan-button {
+    color: var(--orange);
+}
+
+.suv-button {
+    color: var(--cyan);
+}
+
+.lux-button {
+    color: var(--dark-cyan);
+}
+
+.sedan-card {
+    background-color: var(--orange);
+    border-radius: 8px 0 0 8px;
+}
+
+.suv-card {
+    background-color: var(--cyan);
+    border-radius: 8px 0 0 8px;
+}
+
+.lux-card {
+    background-color: var(--dark-cyan);
+    border-radius: 8px;
+}
+
+/* Is attribution a common style, or different between screen sizes? */
+
+@media only screen and (max-width: 375px) {
+    
 }
 
 @media only screen and (min-width: 376px) {
@@ -26,45 +76,21 @@ html {
     }
     
     .card-title {
-        font-family: 'Big Shoulders Display';
-        font-size: 40px;
-        color: var(--light-gray);
         margin-left: 48px;
         margin-top: 35px;
     }
     
     .card-text {
-        font-family: 'Lexend Deca';
-        color: var(--light-gray);
         display: block;
         margin-left: 48px;
         margin-top: 25px;
         height: 125px;
         width: 212px;
-        line-height: 25px;
     }
     
     .learn-more {
-        background-color: var(--light-gray);
-        border: 2px solid var(--light-gray);
-        height: 48px;
-        width: 146px;
-        border-radius: 30px;
-        font-family: 'Lexend Deca';
         margin-left: 48px;
         margin-top: 68px;
-    }
-    
-    .sedan-button {
-        color: var(--orange);
-    }
-    
-    .suv-button {
-        color: var(--cyan);
-    }
-    
-    .lux-button {
-        color: var(--dark-cyan);
     }
     
     .sedan-button:hover {
@@ -83,26 +109,20 @@ html {
     }
     
     .sedan-card {
-        background-color: var(--orange);
         height: 500px;
-        width: 317px;
-        border-radius: 10px 0 0 10px;
+        width: 315px;
     }
     
     .suv-card {
-        background-color: var(--cyan);
         height: 500px;
-        width: 317px;
-        margin-left: -10px;
-        border-radius: 10px 0 0 10px;
+        width: 315px;
+        margin-left: -8px;
     }
     
     .lux-card {
-        background-color: var(--dark-cyan);
         height: 500px;
         width: 307px;
-        margin-left: -10px;
-        border-radius: 10px;
+        margin-left: -8px;
     }
     
     .attribution {
