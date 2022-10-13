@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: [https://www.frontendmentor.io/solutions/3-column-responsive-card-w-flexbox-vhhgSjSuLn](https://www.frontendmentor.io/solutions/3-column-responsive-card-w-flexbox-vhhgSjSuLn)
 - Live Site URL: [https://www.bcapra.com/3-column-responsive/](https://www.bcapra.com/3-column-responsive/)
 
 ### Built with
