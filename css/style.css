@@ -15,16 +15,22 @@ html {
     justify-content: center;
 }
 
+.icon {
+    margin-left: 48px;
+}
+
 .card-title {
     font-family: 'Big Shoulders Display';
     font-size: 40px;
     color: var(--light-gray);
+    margin-left: 48px;
 }
 
 .card-text {
     font-family: 'Lexend Deca';
     color: var(--light-gray);
     display: block;
+    margin-left: 48px;
     height: 125px;
     width: 212px;
     line-height: 25px;
@@ -37,6 +43,7 @@ html {
     width: 146px;
     border-radius: 30px;
     font-family: 'Lexend Deca';
+    margin-left: 48px;
 }
 
 .sedan-button {
