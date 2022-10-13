@@ -8,102 +8,109 @@ html {
     font-size: 15px;
 }
 
-.all-cards {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon {
-    margin-left: 48px;
-}
-
-.card-title {
-    font-family: 'Big Shoulders Display';
-    font-size: 40px;
-    color: var(--light-gray);
-    margin-left: 48px;
-}
-
-.card-text {
-    font-family: 'Lexend Deca';
-    color: var(--light-gray);
-    display: block;
-    margin-left: 48px;
-    height: 125px;
-    width: 212px;
-    line-height: 25px;
-}
-
-.learn-more {
-    background-color: var(--light-gray);
-    border: 2px solid var(--light-gray);
-    height: 48px;
-    width: 146px;
-    border-radius: 30px;
-    font-family: 'Lexend Deca';
-    margin-left: 48px;
-}
-
-.sedan-button {
-    color: var(--orange);
-}
-
-.suv-button {
-    color: var(--cyan);
-}
-
-.lux-button {
-    color: var(--dark-cyan);
-}
-
-.sedan-button:hover {
-    color: var(--light-gray);
-    background-color: var(--orange);
-}
-
-.suv-button:hover {
-    color: var(--light-gray);
-    background-color: var(--cyan);
-}
-
-.lux-button:hover {
-    color: var(--light-gray);
-    background-color: var(--dark-cyan);
-}
-
-.sedan-card {
-    background-color: var(--orange);
-    height: 500px;
-    width: 307px;
-}
-
-.suv-card {
-    background-color: var(--cyan);
-    height: 500px;
-    width: 307px;
-}
-
-.lux-card {
-    background-color: var(--dark-cyan);
-    height: 500px;
-    width: 307px;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 @media only screen and (max-width: 375px) {
 
 }
 
 @media only screen and (min-width: 376px) {
-
+    .all-cards {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icon {
+        margin-left: 48px;
+        margin-top: 48px;
+    }
+    
+    .card-title {
+        font-family: 'Big Shoulders Display';
+        font-size: 40px;
+        color: var(--light-gray);
+        margin-left: 48px;
+        margin-top: 35px;
+    }
+    
+    .card-text {
+        font-family: 'Lexend Deca';
+        color: var(--light-gray);
+        display: block;
+        margin-left: 48px;
+        margin-top: 25px;
+        height: 125px;
+        width: 212px;
+        line-height: 25px;
+    }
+    
+    .learn-more {
+        background-color: var(--light-gray);
+        border: 2px solid var(--light-gray);
+        height: 48px;
+        width: 146px;
+        border-radius: 30px;
+        font-family: 'Lexend Deca';
+        margin-left: 48px;
+        margin-top: 68px;
+    }
+    
+    .sedan-button {
+        color: var(--orange);
+    }
+    
+    .suv-button {
+        color: var(--cyan);
+    }
+    
+    .lux-button {
+        color: var(--dark-cyan);
+    }
+    
+    .sedan-button:hover {
+        color: var(--light-gray);
+        background-color: var(--orange);
+    }
+    
+    .suv-button:hover {
+        color: var(--light-gray);
+        background-color: var(--cyan);
+    }
+    
+    .lux-button:hover {
+        color: var(--light-gray);
+        background-color: var(--dark-cyan);
+    }
+    
+    .sedan-card {
+        background-color: var(--orange);
+        height: 500px;
+        width: 317px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .suv-card {
+        background-color: var(--cyan);
+        height: 500px;
+        width: 317px;
+        margin-left: -10px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .lux-card {
+        background-color: var(--dark-cyan);
+        height: 500px;
+        width: 307px;
+        margin-left: -10px;
+        border-radius: 10px;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
 }
