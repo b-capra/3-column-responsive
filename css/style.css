@@ -8,16 +8,27 @@ html {
     font-size: 15px;
 }
 
+.icon {
+    height: 40px;
+    width: 64px;
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
 .card-title {
     font-family: 'Big Shoulders Display';
     font-size: 40px;
     color: var(--light-gray);
+    margin-left: 48px;
+    margin-top: 35px;
 }
 
 .card-text {
     font-family: 'Lexend Deca';
     color: var(--light-gray);
     line-height: 25px;
+    margin-left: 48px;
+    margin-top: 25px;
 }
 
 .learn-more {
@@ -27,6 +38,7 @@ html {
     width: 146px;
     border-radius: 25px;
     font-family: 'Lexend Deca';
+    margin-left: 48px;
 }
 
 .sedan-button {
@@ -43,23 +55,63 @@ html {
 
 .sedan-card {
     background-color: var(--orange);
-    border-radius: 8px 0 0 8px;
 }
 
 .suv-card {
     background-color: var(--cyan);
-    border-radius: 8px 0 0 8px;
 }
 
 .lux-card {
     background-color: var(--dark-cyan);
-    border-radius: 8px;
 }
 
-/* Is attribution a common style, or different between screen sizes? */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
 @media only screen and (max-width: 375px) {
-    
+    .all-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-text {
+        display: block;
+        width: 231px;
+        height: 125px;
+        margin-bottom: 0;
+    }
+
+    .learn-more {
+        margin-top: 25px;
+    }
+
+    .sedan-card {
+        width: 327px;
+        height: 450px;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .suv-card {
+        width: 327px;
+        height: 450px;
+        border-radius: 8px 8px 0 0;
+        margin-top: -8px;
+    }
+
+    .lux-card {
+        width: 327px;
+        height: 442px;
+        border-radius: 8px;
+        margin-top: -8px;
+    }
 }
 
 @media only screen and (min-width: 376px) {
@@ -70,67 +122,51 @@ html {
         justify-content: center;
     }
     
-    .icon {
-        margin-left: 48px;
-        margin-top: 48px;
-    }
-    
-    .card-title {
-        margin-left: 48px;
-        margin-top: 35px;
-    }
-    
     .card-text {
         display: block;
-        margin-left: 48px;
-        margin-top: 25px;
         height: 125px;
         width: 212px;
     }
     
     .learn-more {
-        margin-left: 48px;
         margin-top: 68px;
     }
     
     .sedan-button:hover {
         color: var(--light-gray);
         background-color: var(--orange);
+        cursor: pointer;
     }
     
     .suv-button:hover {
         color: var(--light-gray);
         background-color: var(--cyan);
+        cursor: pointer;
     }
     
     .lux-button:hover {
         color: var(--light-gray);
         background-color: var(--dark-cyan);
+        cursor: pointer;
     }
     
     .sedan-card {
         height: 500px;
         width: 315px;
+        border-radius: 8px 0 0 8px;
     }
     
     .suv-card {
         height: 500px;
         width: 315px;
         margin-left: -8px;
+        border-radius: 8px 0 0 8px;
     }
     
     .lux-card {
         height: 500px;
         width: 307px;
         margin-left: -8px;
-    }
-    
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-    }
-    
-    .attribution a {
-        color: hsl(228, 45%, 44%);
+        border-radius: 8px;
     }
 }
