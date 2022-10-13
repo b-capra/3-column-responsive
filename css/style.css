@@ -17,10 +17,17 @@ html {
 
 .card-title {
     font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    color: var(--light-gray);
 }
 
 .card-text {
     font-family: 'Lexend Deca';
+    color: var(--light-gray);
+    display: block;
+    height: 125px;
+    width: 212px;
+    line-height: 25px;
 }
 
 .learn-more {
@@ -42,6 +49,21 @@ html {
 
 .lux-button {
     color: var(--dark-cyan);
+}
+
+.sedan-button:hover {
+    color: var(--light-gray);
+    background-color: var(--orange);
+}
+
+.suv-button:hover {
+    color: var(--light-gray);
+    background-color: var(--cyan);
+}
+
+.lux-button:hover {
+    color: var(--light-gray);
+    background-color: var(--dark-cyan);
 }
 
 .sedan-card {
